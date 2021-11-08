@@ -1,0 +1,262 @@
+*{
+	margin: 0; /*creates space around an element, bad too*/
+	padding: 0; /*used to create space around the content, bad basically*/
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.header{
+	min-height: 100vh; /*height of the header section class is 100% of the viewport height*/
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/background.jpg);
+	/*rgba(4,9,30,0.7) is just the bluish black I use in art sometimes, linear gradient is just gradient tool*/
+	background-position: center;
+	background-size: cover; /*basically fit to screen, change to auto when I get an image big enough*/
+	position: relative; /*should change when the page changes*/
+}
+
+.main{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	/*centers the div*/
+}
+
+.main img{
+	width: 150px;
+	height: auto;
+	/*for image size lol*/
+}
+
+.main h1{
+	font-size: 24px;
+}
+.main h2{
+	font-size: 14px;
+	/*these 2 are nice to have but I'm pretty sure they're pointless*/
+}
+
+/*button stylin' time*/
+
+.discord-btn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #000; /*black*/
+	border-radius: 5px; /*roundness*/
+	padding: 12px 16px;
+	font-size: 14px;
+	background: #5865F2; /*discord's blurple color*/
+	position: relative;
+	cursor: pointer;
+}
+.discord-btn img{
+	width: 20px;
+	padding: 1px 5px;
+	transform: translate(5%, 33%); /*(x, y) positive = right or down*/
+}
+.discord-btn:hover{
+	border: 1px solid #fff; /*white*/
+	transition: 0.25s;
+}
+
+/*Github button*/
+
+.github-btn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #000; /*black*/
+	border-radius: 5px; /*roundness*/
+	padding: 12px 16px;
+	font-size: 14px;
+	background: #000; /*GitHub's black color*/
+	position: relative;
+	cursor: pointer;
+}
+.github-btn img{
+	width: 20px;
+	padding: 1px 5px;
+	transform: translate(5%, 20%); /*(x, y) positive = right or down*/
+}
+.github-btn:hover{
+	border: 1px solid #fff; /*white*/
+	transition: 0.25s;
+}
+
+/*youtube button*/
+
+.youtube-btn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #000; /*black*/
+	border-radius: 5px; /*roundness*/
+	padding: 12px 16px;
+	font-size: 14px;
+	background: #FF0000; /*Youtube red color*/
+	position: relative;
+	cursor: pointer;
+}
+.youtube-btn img{
+	width: 20px;
+	padding: 1px 5px;
+	transform: translate(5%, 20%); /*(x, y) positive = right or down*/
+}
+.youtube-btn:hover{
+	border: 1px solid #fff; /*white*/
+	transition: 0.25s;
+}
+
+/*instagram button*/
+
+.instagram-btn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #000; /*black*/
+	border-radius: 5px; /*roundness*/
+	padding: 12px 16px;
+	font-size: 14px;
+	background: linear-gradient(#8a3ab9, #fbad50); /*my attempt at the instagram background*/
+	position: relative;
+	cursor: pointer;
+}
+.instagram-btn img{
+	width: 20px;
+	padding: 1px 5px;
+	transform: translate(5%, 20%); /*(x, y) positive = right or down*/
+}
+.instagram-btn:hover{
+	border: 1px solid #fff; /*white*/
+	transition: 0.25s;
+}
+
+/*steam button*/
+
+.steam-btn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #000; /*black*/
+	border-radius: 5px; /*roundness*/
+	padding: 12px 16px;
+	font-size: 14px;
+	background: #050404; /*steam black color*/
+	position: relative;
+	cursor: pointer;
+}
+.steam-btn img{
+	width: 20px;
+	padding: 1px 5px;
+	transform: translate(5%, 20%); /*(x, y) positive = right or down*/
+}
+.steam-btn:hover{
+	border: 1px solid #fff; /*white*/
+	transition: 0.25s;
+}
+
+/*twitter button*/
+
+.twitter-btn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #000; /*black*/
+	border-radius: 5px; /*roundness*/
+	padding: 12px 16px;
+	font-size: 14px;
+	background: #1DA1F2; /*twitter blue color*/
+	position: relative;
+	cursor: pointer;
+}
+.twitter-btn img{
+	width: 20px;
+	padding: 1px 5px;
+	transform: translate(5%, 20%); /*(x, y) positive = right or down*/
+}
+.twitter-btn:hover{
+	border: 1px solid #fff; /*white*/
+	transition: 0.25s;
+}
+
+
+/*About me CSS*/
+
+
+.about-me{
+	height: 60%;
+	background: #000;
+	border: 2px solid #000;
+	border-radius: 5px;
+	border-bottom-color: rgb(189, 186, 186);
+}
+.about-me-text{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	/*centers the div*/
+}
+
+
+/*languages*/
+
+.tools{
+	background: #030303;
+	border: 2px solid #000;
+	border-radius: 5px;
+	border-bottom-color: rgb(189, 186, 186);
+}
+.languages-tools{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	/*centers the div*/
+}
+
+
+/*Projects*/
+
+
+.projects{
+	background: #030303;
+}
+.projects-main{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	/*centers the div*/
+}
+
+
+.nav-projects{ /*positions the links in projects*/
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.nav-projects li{
+	list-style: none; /*no bullet points*/
+	display: inline-block; /*horizontal but I'm not sure I even need this*/
+	padding: 8px 12px;
+	position: relative; /*doesn't really matter*/
+}
+.nav-projects li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/*games page*/
+
+.games-header{
+	min-height: 100vh;
+	background: #000;
+}
+.games-main{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	/*centers the div*/
+	border: 2px solid #000;
+	border-radius: 5px;
+	border-bottom-color: rgb(189, 186, 186);
+}
