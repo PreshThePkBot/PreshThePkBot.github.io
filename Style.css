@@ -182,7 +182,7 @@
 
 
 .about-me{
-	height: 50%; /*changes the size of the box*/
+	 /*changes the size of the box*/
 	background: #000;
 	border: 2px solid #000;
 	border-radius: 5px;
@@ -192,7 +192,7 @@
 	color: #fff;
 	position: relative;
 	text-align: center;
-	font-size: 25px;
+	font-size: 25;
 	/*centers the div*/
 }
 
@@ -225,6 +225,9 @@
 	position: relative;
 	text-align: center;
 	/*centers the div*/
+}
+.projects-main h3{
+	font-size: 15px;
 }
 
 
