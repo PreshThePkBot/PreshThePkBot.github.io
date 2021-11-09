@@ -267,12 +267,19 @@
 .games-header{
 	min-height: 100vh;
 	background: #000;
+	color: #fff;
+}
+.games-header a{
+	position: right;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 2px 4px;
+	border-radius: 4px;
+
 }
 .games-main{
-	color: #fff;
 	position: relative;
-	text-align: center;
-	/*centers the div*/
 	border: 2px solid #000;
 	border-radius: 5px;
 	border-bottom-color: rgb(189, 186, 186);
@@ -285,12 +292,19 @@
 .art-header{
 	min-height: 100vh;
 	background: #000;
+	color: #fff;
+}
+.art-header a{
+	position: right;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 2px 4px;
+	border-radius: 4px;
+
 }
 .art-main{
-	color: #fff;
 	position: relative;
-	text-align: center;
-	/*centers the div*/
 	border: 2px solid #000;
 	border-radius: 5px;
 	border-bottom-color: rgb(189, 186, 186);
@@ -302,12 +316,19 @@
 .other-header{
 	min-height: 100vh;
 	background: #000;
+	color: #fff;
+}
+.other-header a{
+	position: right;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 2px 4px;
+	border-radius: 4px;
+
 }
 .other-main{
-	color: #fff;
 	position: relative;
-	text-align: center;
-	/*centers the div*/
 	border: 2px solid #000;
 	border-radius: 5px;
 	border-bottom-color: rgb(189, 186, 186);
