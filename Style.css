@@ -1,7 +1,7 @@
 *{
 	margin: 0; /*creates space around an element, bad too*/
 	padding: 0; /*used to create space around the content, bad basically*/
-	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 }
 
 .header{
