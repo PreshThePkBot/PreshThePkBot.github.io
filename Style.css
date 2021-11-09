@@ -26,16 +26,16 @@
 }
 
 .main img{
-	width: 150px;
+	width: 250px;
 	height: auto;
 	/*for image size lol*/
 }
 
 .main h1{
-	font-size: 24px;
+	font-size: 35px;
 }
 .main h2{
-	font-size: 14px;
+	font-size: 30px;
 	/*these 2 are nice to have but I'm pretty sure they're pointless*/
 }
 
@@ -47,7 +47,7 @@
 	border: 1px solid #000; /*black*/
 	border-radius: 5px; /*roundness*/
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 20px;
 	background: #5865F2; /*discord's blurple color*/
 	position: relative;
 	cursor: pointer;
@@ -70,7 +70,7 @@
 	border: 1px solid #000; /*black*/
 	border-radius: 5px; /*roundness*/
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 20px;
 	background: #000; /*GitHub's black color*/
 	position: relative;
 	cursor: pointer;
@@ -93,7 +93,7 @@
 	border: 1px solid #000; /*black*/
 	border-radius: 5px; /*roundness*/
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 20px;
 	background: #FF0000; /*Youtube red color*/
 	position: relative;
 	cursor: pointer;
@@ -116,7 +116,7 @@
 	border: 1px solid #000; /*black*/
 	border-radius: 5px; /*roundness*/
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 20px;
 	background: linear-gradient(#8a3ab9, #fbad50); /*my attempt at the instagram background*/
 	position: relative;
 	cursor: pointer;
@@ -139,7 +139,7 @@
 	border: 1px solid #000; /*black*/
 	border-radius: 5px; /*roundness*/
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 20px;
 	background: #050404; /*steam black color*/
 	position: relative;
 	cursor: pointer;
@@ -162,7 +162,7 @@
 	border: 1px solid #000; /*black*/
 	border-radius: 5px; /*roundness*/
 	padding: 12px 16px;
-	font-size: 14px;
+	font-size: 20px;
 	background: #1DA1F2; /*twitter blue color*/
 	position: relative;
 	cursor: pointer;
@@ -182,7 +182,7 @@
 
 
 .about-me{
-	height: 60%;
+	height: 50%; /*changes the size of the box*/
 	background: #000;
 	border: 2px solid #000;
 	border-radius: 5px;
@@ -192,6 +192,7 @@
 	color: #fff;
 	position: relative;
 	text-align: center;
+	font-size: 25px;
 	/*centers the div*/
 }
 
@@ -208,6 +209,7 @@
 	color: #fff;
 	position: relative;
 	text-align: center;
+	font-size: 25;
 	/*centers the div*/
 }
 
@@ -244,6 +246,21 @@
 	text-decoration: none;
 	font-size: 30px;
 }
+
+
+.nav-projects li::after{ /*underline when you hover over an option*/
+	content: '';
+	width: 0%; /*visibility, 100% for full*/
+	height: 2px;
+	background: rgb(189, 186, 186);
+	display: block;
+	margin: auto;
+	transition: 0.25s; /*time for the bar to appear*/
+}
+.nav-projects li:hover::after{
+	width: 100%;
+}
+
 
 /*games page*/
 
