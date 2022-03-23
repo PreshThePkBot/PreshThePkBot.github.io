@@ -312,6 +312,10 @@
 	border-radius: 5px;
 	border-bottom-color: rgb(189, 186, 186);
 }
+.art-gallery{
+	height: 360px;
+	padding: 50px;
+}
 
 /*other page*/
 
