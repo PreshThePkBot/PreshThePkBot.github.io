@@ -297,15 +297,7 @@
 	background: #000;
 	color: #fff;
 }
-.art-header a{
-	position: right;
-	color: #fff;
-	text-decoration: none;
-	border: 1px solid #fff;
-	padding: 2px 4px;
-	border-radius: 4px;
 
-}
 .art-main{
 	position: relative;
 	border: 2px solid #000;
